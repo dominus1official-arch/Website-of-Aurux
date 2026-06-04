@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurix - Crypto Intelligence</title>
+    <meta
+      name="description"
+      content="Premium crypto intelligence, custody, and liquidity landing page."
+    />
+    <link rel="stylesheet" href="styles.css?v=5" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Aurix home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Aurix</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="intel.html">Intel</a>
+        <a href="services.html">Services</a>
+        <a href="signals.html">Signals</a>
+        <a href="access.html">Access</a>
+      </nav>
+
+      <a class="header-action" href="access.html">
+        <span>Private desk</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 17 17 7M9 7h8v8" />
+        </svg>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/hero-crypto.png" alt="" />
+        </div>
+
+        <div class="hero-line hero-line-one" aria-hidden="true"></div>
+        <div class="hero-line hero-line-two" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Private crypto layer</p>
+            <h1>Quiet capital for on-chain markets</h1>
+            <p class="hero-text">
+              Custody, liquidity, and signal in one refined operating layer.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="access.html">Enter desk</a>
+              <a class="button button-ghost" href="intel.html">Explore</a>
+            </div>
+
+            <div class="hero-live-row" aria-label="Live market focus">
+              <button class="market-pill active" type="button" data-asset="BTC" data-spread="0.18%" data-flow="$812M" onclick="window.activateMarket && window.activateMarket(this)">
+                BTC <span>+2.4%</span>
+              </button>
+              <button class="market-pill" type="button" data-asset="ETH" data-spread="0.21%" data-flow="$426M" onclick="window.activateMarket && window.activateMarket(this)">
+                ETH <span>+1.8%</span>
+              </button>
+              <button class="market-pill" type="button" data-asset="SOL" data-spread="0.26%" data-flow="$138M" onclick="window.activateMarket && window.activateMarket(this)">
+                SOL <span>+3.1%</span>
+              </button>
+            </div>
+
+            <div class="trust-strip liquid">
+              <span>Trusted routing</span>
+              <div class="client-stack" aria-hidden="true">
+                <i></i><i></i><i></i><i></i>
+              </div>
+              <strong>42 desks</strong>
+              <span class="trust-note">Institutional flow, quietly monitored.</span>
+            </div>
+          </div>
+
+          <aside class="hero-stat liquid reveal" style="--delay: 120ms">
+            <span class="stat-kicker">Live spread</span>
+            <strong data-live-spread>0.18%</strong>
+            <span>Across vetted liquidity routes</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="dark-shell" id="intel">
+        <div class="container split-section">
+          <div class="section-visual reveal">
+            <img src="assets/custody-visual.png" alt="Abstract black crypto custody device with glass token ring" />
+          </div>
+          <div class="section-copy reveal" style="--delay: 90ms">
+            <p class="eyebrow">About Aurix</p>
+            <h2>Precision without market noise</h2>
+            <div class="chip-row" aria-label="Capabilities">
+              <span>Custody</span>
+              <span>Liquidity</span>
+              <span>Signal</span>
+            </div>
+            <p>
+              We combine asset operations with clean intelligence for teams
+              that need fewer screens and sharper decisions.
+            </p>
+            <a class="inline-link" href="intel.html">Learn more</a>
+          </div>
+        </div>
+
+        <section class="container services" id="services">
+          <div class="section-head reveal">
+            <h2>Private operating layers</h2>
+            <div class="arrow-pair" aria-hidden="true">
+              <span></span><span></span>
+            </div>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card liquid reveal">
+              <span class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 11V8a5 5 0 0 1 10 0v3" />
+                  <path d="M6 11h12v9H6z" />
+                  <path d="M12 15v2" />
+                </svg>
+              </span>
+              <h3>Cold custody</h3>
+              <p>Policy-led vaulting, approvals, and clean reporting.</p>
+              <a href="services.html">Learn more</a>
+            </article>
+
+            <article class="service-card liquid reveal" style="--delay: 90ms">
+              <span class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 17c4-8 8 0 12-8 1-2 2-3 4-3" />
+                  <path d="M5 19h14" />
+                  <path d="M17 6h3v3" />
+                </svg>
+              </span>
+              <h3>Signal desk</h3>
+              <p>Noise-filtered market views for fast allocations.</p>
+              <a href="services.html">Learn more</a>
+            </article>
+
+            <article class="service-card liquid reveal" style="--delay: 180ms">
+              <span class="service-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 7h16" />
+                  <path d="M4 12h16" />
+                  <path d="M4 17h16" />
+                  <circle cx="8" cy="7" r="1.5" />
+                  <circle cx="16" cy="12" r="1.5" />
+                  <circle cx="11" cy="17" r="1.5" />
+                </svg>
+              </span>
+              <h3>Liquidity routing</h3>
+              <p>Discreet execution paths across trusted venues.</p>
+              <a href="services.html">Learn more</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="container possibilities" id="signals">
+          <div class="large-title reveal">
+            <h2>Measured access to digital markets</h2>
+          </div>
+
+          <div class="insight-layout">
+            <div class="vertical-tabs reveal" aria-label="Signal categories">
+              <button class="active" type="button">Markets</button>
+              <button type="button">Treasury</button>
+              <button type="button">Risk</button>
+            </div>
+
+            <div class="market-panel liquid reveal" style="--delay: 80ms">
+              <div class="market-orbit" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <div>
+                <span class="panel-label">Net flow</span>
+                <strong>$812M</strong>
+                <small>24h institutional movement</small>
+              </div>
+              <div class="sparkline" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+            </div>
+
+            <article class="insight-copy reveal" style="--delay: 160ms">
+              <h3>From market pulse to treasury action</h3>
+              <p>
+                One clean layer for exposures, venues, and liquidity windows.
+              </p>
+              <a class="inline-link" href="signals.html">Open desk</a>
+              <footer>
+                <span>03 May 2026</span>
+                <span>Aurix Research</span>
+              </footer>
+            </article>
+          </div>
+        </section>
+
+        <section class="container voices">
+          <div class="voices-copy reveal">
+            <h2>What operators notice</h2>
+            <p>
+              Built for operators who want precision without spectacle.
+            </p>
+          </div>
+
+          <div class="quote-stack">
+            <article class="quote-card liquid reveal">
+              <p>"Aurix turned treasury reviews into a ten-minute ritual."</p>
+              <strong>Elena Voss</strong>
+            </article>
+            <article class="quote-card liquid reveal" style="--delay: 90ms">
+              <p>"The routing view is quiet, fast, and exactly enough."</p>
+              <strong>Marcus Iden</strong>
+            </article>
+            <article class="quote-card liquid reveal" style="--delay: 180ms">
+              <p>"A premium layer that does not fight our workflow."</p>
+              <strong>Nadia Keir</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="container banner reveal" id="access">
+          <img src="assets/cta-visual.png" alt="Dark cinematic crypto intelligence portrait with glass reflections" />
+          <div class="banner-content">
+            <h2>Open a cleaner crypto desk</h2>
+            <p>Custody, execution, and intelligence in one calm surface.</p>
+          </div>
+          <a class="play-button" href="access.html" aria-label="Request access">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </a>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>Aurix</span>
+          </a>
+          <p>Premium crypto intelligence for modern capital.</p>
+        </div>
+
+        <div>
+          <h3>Email</h3>
+          <a href="mailto:desk@aurix.capital">desk@aurix.capital</a>
+        </div>
+
+        <div>
+          <h3>Quick links</h3>
+          <a href="intel.html">Intel</a>
+          <a href="services.html">Services</a>
+          <a href="signals.html">Signals</a>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <a href="access.html">Private desk</a>
+          <a href="services.html">Custody</a>
+          <a href="signals.html">Market pulse</a>
+        </div>
+
+        <div>
+          <h3>Social</h3>
+          <div class="social-row">
+            <a href="#" aria-label="X">X</a>
+            <a href="#" aria-label="LinkedIn">In</a>
+            <a href="#" aria-label="Telegram">Tg</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-tape" aria-hidden="true">
+        <span>Aurix</span><span>Liquid custody</span><span>Signal desk</span><span>Private routing</span>
+      </div>
+    </footer>
+
+    <script src="script.js?v=5"></script>
+  </body>
+</html>
